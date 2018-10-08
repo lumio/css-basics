@@ -122,7 +122,7 @@ Specificity
 
 The priority of rules and how to calculate them
 
-* * = 0
+* \* = 0
 * element = 1
 * class = 10
 * attributes = 10
