@@ -29,12 +29,16 @@ the basics and more
 
 ### Selector types
 
-* Tag name selectors ... `p`, `div`, ... (`<p />`)
-* Class selectors ... `.className` (`<p class="className" />`)
-* ID selectors ... `#idName` (`<p id="idName" />`)
-* Attribute selectors `[attribute="value"]` (`<p attribute="value" />`)
-* Pseudo-class selectors ... `:first-child`, `:hover`, ...
-* Pseudo-elements ... `::before`, `::after`
+* Tag name selectors... `p`, `div`, ...  
+	`<p />`
+* Class selectors... `.className`  
+	`<p class="className" />`
+* ID selectors... `#idName`  
+	`<p id="idName" />`
+* Attribute selectors `[attribute="value"]`
+	`<p attribute="value" />`
+* Pseudo-class selectors... `:first-child`, `:hover`, ...
+* Pseudo-elements... `::before`, `::after`
 
 ---
 
