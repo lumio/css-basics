@@ -1,5 +1,5 @@
 # published : true
-theme: default
+theme: simple
 highlight: tomorrow
 layout: center-left
 transition: none
