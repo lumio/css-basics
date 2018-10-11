@@ -1,5 +1,5 @@
 # published : true
-theme: simple
-highlight: tomorrow
+theme: white
+highlight: monokai-sublime
 layout: center-left
 transition: none
