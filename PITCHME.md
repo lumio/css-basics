@@ -137,7 +137,8 @@ the operator of the previous slide, our CSS selector should work just fine:
 }
 ```
 
-This would match **`data-ref`**`="`**`https`***`://example.org/`*`"`
+This would match  
+**`data-ref`**`="`**`https`**`://example.org/`"`
 
 +++
 
