@@ -152,7 +152,7 @@ The `$=` operator will test against the end of an attributes value.
 
 This would match  
 **`data-ref`**`="https://example.org`**`/`**`"`  
-`                           ^`
+`---------------------------^`
 
 +++
 
