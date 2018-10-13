@@ -385,3 +385,8 @@ When there are 2 rules with the same level of specificity the latter is applied.
 
 Further readings
 https://moritzgiessmann.de/accessibility-cheatsheet/
+
+---
+
+### Custom properties
+(aka "something-like-variables-but-better")
