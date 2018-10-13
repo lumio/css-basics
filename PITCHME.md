@@ -60,14 +60,102 @@ This would select all anchor tags that have the class *.fancy-box* and link to
 
 ---
 
-### TODO: Attribute selectors
+### Attribute selectors
 
-* [attribute] … element with a certain attribute
-* [attribute="value"] … element with exact attribute value
-* [attribute^="value"] … starts with value
-* [attribute$="value"] … ends with value
-* [attribute*="value"] … contains value
-* [attribute operator value i] … the i makes it case insensitive
+* `[attribute]` … element with a certain attribute
+* `[attribute="value"]` … element with exact attribute value
+* `[attribute^="value"]` … starts with value
+* `[attribute$="value"]` … ends with value
+* `[attribute*="value"]` … contains value
+* `[attribute operator value i]` … the i makes it case insensitive
+
+Quotes are mostly optional and you can also use single quotes as well.
+
++++
+
+#### Attribute selectors
+
+Let's consider the following `html` code:
+
+```html
+<body>
+  <input type="text" data-ref="https://example.org/" />
+  <input type="password" />
+</body>
+```
+
++++
+
+#### `[attribute]`
+
+This checks if an element has a certain attribute defined.
+The value does not matter and since we are always dealing with strings, "false"
+is not actually a boolean value and would still be matched with `[attribute]`.
+
+```css
+[data-ref] {
+  background: pink;
+}
+```
+
++++
+
+#### `[attribute="value"]`
+
+Selecting an element with a certain attribute. This selector is an exact
+selector.
+
+```css
+[type="password"] {
+  border: 2px solid red;
+}
+```
+
++++
+
+#### `[attribute="value"]`
+
+This won't match with any of our elements:
+
+```css
+[data-ref="https"] { /* ... */ }
+```
+
+The `data-ref` value needs to be the exact value that we are requesting.
+But there is actually an operator to solve this...
+
++++
+
+#### `[attribute^="value"]`
+
+The `^=` operator checks against the beginning of an attribute. If we change
+the operator of the previous slide, our CSS selector should work just fine:
+
+```css
+[data-ref^="https"] {
+  border: 2px solid green;
+}
+```
+
+This would match **`data-ref`**`="`**`https`***`://example.org/`*`"`
+
++++
+
+#### `[attribute$="value"]`
+
+The `$=` operator will test against the end of an attributes value.
+
+```css
+[data-ref$="/"] { /* ... */ }
+```
+
++++
+
+#### `[attribute*="value"]`
+
++++
+
+#### `[attribute operator value i]`
 
 ---
 
