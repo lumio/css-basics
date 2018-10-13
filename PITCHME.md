@@ -138,7 +138,7 @@ the operator of the previous slide, our CSS selector should work just fine:
 ```
 
 This would match  
-**`data-ref`**`="`**`https`**`://example.org/`"`
+**`data-ref`**`="`**`https`**`://example.org/"`
 
 +++
 
@@ -149,6 +149,10 @@ The `$=` operator will test against the end of an attributes value.
 ```css
 [data-ref$="/"] { /* ... */ }
 ```
+
+This would match  
+**`data-ref`**`="https://example.org`**`/`**`"`  
+`                           ^`
 
 +++
 
