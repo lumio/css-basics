@@ -221,7 +221,7 @@ This would still match our element.
 
 ## Combinators
 
----
++++
 
 ### Descendant combinator
 
@@ -245,7 +245,7 @@ wrapping it.
 </div>
 ```
 
----
++++
 
 ### Child combinator
 
@@ -265,7 +265,7 @@ div > a { /* ... */ }
 </div>
 ```
 
----
++++
 
 ### Adjacent sibling combinator
 
@@ -283,7 +283,7 @@ input + span {
 <span>This will be printed in a regular font</span>
 ```
 
----
++++
 
 ### General sibling combinator
 
@@ -301,6 +301,8 @@ input ~ span {
 <span>This will be printed in bold</span>
 <span>This will be printed in bold as well</span>
 ```
+
+---
 
 ## Box model
 
