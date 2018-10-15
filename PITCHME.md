@@ -208,6 +208,17 @@ This would still match our element.
 
 ---
 
+### Pseudo elements
+
+---
+
+### TODO: Pseudo elements
+
+`::after, ::backdrop, ::before, ::cue, ::first-letter, ::first-line,
+::grammar-error, ::placeholder, ::selection, ::slotted(), ::spelling-error`
+
+---
+
 ## Combinators
 
 ---
