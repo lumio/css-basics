@@ -158,9 +158,30 @@ This would match
 
 #### `[attribute*="value"]`
 
+The `*=` operator checks if an attribute contains a certain value.
+
+```css
+[data-ref*="example.org"] { /* ... */ }
+```
+
+This would match  
+**`data-ref`**`=https://`**`example.org`**`/"`
+
 +++
 
 #### `[attribute operator value i]`
+
+A trailing `i` would make the selector case insensitive.
+
+```css
+[data-ref*="EXAMPLE.ORG" i] { /* ... */ }
+```
+
+This would still match our element.
+
+---
+
+### Pseudo classes
 
 ---
 
