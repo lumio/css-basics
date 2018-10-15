@@ -25,7 +25,7 @@ the basics and more
 
 ## Selectors
 
----
++++
 
 ### Selector types
 
@@ -40,7 +40,7 @@ the basics and more
 * Pseudo-class selectors... `:first-child`, `:hover`, ...
 * Pseudo-elements... `::before`, `::after`
 
----
++++
 
 ### Selector types
 
@@ -183,9 +183,9 @@ This would still match our element.
 
 ### Pseudo classes
 
----
++++
 
-### TODO Pseudo classes :*-child
+### TODO Pseudo classes
 
 * Caveats
 	* `:first-child` and `:last-child` will ignore the element tag type
@@ -196,6 +196,10 @@ This would still match our element.
     <p>Element 2</p> <!— p:first-child won't work here —>
   </div>
 ```
+
++++
+
+### TODO Pseudo classes
 
 `:active, :any-link, :checked, :blank, :default, :defined, :dir(), :disabled,
 :empty, :enabled, :first, :first-child, :first-of-type, :fullscreen, :focus,
@@ -210,7 +214,7 @@ This would still match our element.
 
 ### Pseudo elements
 
----
++++
 
 ### TODO: Pseudo elements
 
@@ -306,7 +310,7 @@ input ~ span {
 
 ## Box model
 
----
++++
 
 ### Box model
 
@@ -321,7 +325,7 @@ So usually setting the width and height of an element only changes the width
 and height of the content itself but does not take into account the outer boxes
 for padding, border and margin.
 
----
++++
 
 ### Box model
 
@@ -334,7 +338,7 @@ but still leaves *margin* untouched.
 
 ## Positioning
 
----
++++
 
 ### Positioning
 
@@ -349,7 +353,7 @@ Anyway... the available property values are as followed:
 * fixed
 * sticky *(no IE support, partially supported in other browsers)*
 
----
++++
 
 ### Positioning
 
@@ -369,7 +373,7 @@ There are a ton of display modes for an element. These are as follows: 
 * **inline**
 * run-in
 
----
++++
 
 #### `<display-inside>`
 
@@ -384,7 +388,7 @@ There are a ton of display modes for an element. These are as follows: 
 
 * list-item
 
----
++++
 
 #### `<display-internal>`
 
@@ -401,7 +405,7 @@ There are a ton of display modes for an element. These are as follows: 
 * ruby-base-container
 * ruby-text-container
 
----
++++
 
 #### `<display-box>`
 
@@ -415,7 +419,7 @@ There are a ton of display modes for an element. These are as follows: 
 * **inline-flex**
 * **inline-grid**
 
----
++++
 
 #### Global values 
 
@@ -423,49 +427,49 @@ There are a ton of display modes for an element. These are as follows: 
 * initial
 * unset
 
----
++++
 
 ##### display: block
 
 TODO
 
----
++++
 
 ##### display: inline
 
 TODO
 
----
++++
 
 ##### display: flex
 
 TODO
 
----
++++
 
 ##### display: grid
 
 TODO
 
----
++++
 
 ##### display: inline-block
 
 TODO
 
----
++++
 
 ##### display: inline-flex
 
 TODO
 
----
++++
 
 ##### display: inline-grid
 
 TODO
 
----
++++
 
 ##### display: inherit
 
@@ -475,7 +479,7 @@ TODO
 
 ## Specificity
 
----
++++
 
 ### Specificity
 
@@ -494,7 +498,7 @@ When there are 2 rules with the same level of specificity the latter is applied.
 
 ## Semantics
 
----
++++
 
 ### Semantics
 
@@ -505,7 +509,7 @@ When there are 2 rules with the same level of specificity the latter is applied.
 
 ## Accessibility
 
----
++++
 
 ### Accessibility
 
@@ -515,4 +519,4 @@ https://moritzgiessmann.de/accessibility-cheatsheet/
 ---
 
 ### Custom properties
-(aka "something-like-variables-but-better")
+#### *(aka "something-like-variables-but-better")*
