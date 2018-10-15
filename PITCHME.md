@@ -6,7 +6,7 @@ the basics and more
 
 ## Linking CSS files
 
----
++++
 
 ### Linking CSS files
 
