@@ -197,6 +197,15 @@ This would still match our element.
   </div>
 ```
 
+`:active, :any-link, :checked, :blank, :default, :defined, :dir(), :disabled,
+:empty, :enabled, :first, :first-child, :first-of-type, :fullscreen, :focus,
+:focus-within, :has(), :host(), :host-context, :hover, :indeterminate,
+:in-range, :invalid, :lang(), :last-child, :last-of-type, :left, :link,
+:matches() (:any()), :not(), :nth-child(), :nth-last-child(), :nth-last-of-type(),
+:nth-of-type(), :only-child, :only-of-type, :optional, :out-of-range,
+:placeholder-shown, :read-only, :read-write, :required, :right, :root, :scope,
+:target, :valid, :visited`
+
 ---
 
 ## Combinators
