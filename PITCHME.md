@@ -199,6 +199,89 @@ This would still match our element.
 
 ---
 
+## Combinators
+
+---
+
+### Descendant combinator
+
+To select an `a` tag inside a `div` you can combine them with a space:
+
+```css
+div a {
+  text-decoration: none;
+  font-style: italic;
+}
+```
+
+This will select any `a` tag inside any `div` no matter if another element is
+wrapping it.
+
+```html
+<div>
+  <p>
+    <a /> <!-- this will still be selected -->
+  </p>
+</div>
+```
+
+---
+
+### Child combinator
+
+If you want to select a direct child you can use the `>` combinator.  
+Keeping our example but adding this combinator like so:
+
+```css
+div > a { /* ... */ }
+```
+
+```html
+<div>
+  <a /> <!-- this is being selected -->
+  <p>
+    <a /> <!-- this however will not -->
+  </p>
+</div>
+```
+
+---
+
+### Adjacent sibling combinator
+
+You can select an element that is followed by a certain other sibling with `+`:
+
+```css
+input + span {
+  font-weight: bold;
+}
+```
+
+```html
+<input />
+<span>This will be printed in bold</span>
+<span>This will be printed in a regular font</span>
+```
+
+---
+
+### General sibling combinator
+
+If you want to style all following elements of after a certain sibling you can
+use the `~` combinator:
+
+```css
+input ~ span {
+  font-weight: bold;
+}
+```
+
+```html
+<input />
+<span>This will be printed in bold</span>
+<span>This will be printed in bold as well</span>
+```
+
 ## Box model
 
 ---
