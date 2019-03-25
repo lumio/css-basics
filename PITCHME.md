@@ -544,6 +544,42 @@ on the computed value of its parent element.
 
 ## flex
 
++++
+
+### flex
+
+#### justify-content
+
++++
+
+### flex
+
+#### align-items
+
++++
+
+### flex
+
+#### flex-grow
+
++++
+
+### flex
+
+#### flex-wrap
+
++++
+
+### flex
+
+#### order
+
++++
+
+### flex
+
+#### Caveats
+
 ---
 
 ## grid
