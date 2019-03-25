@@ -450,13 +450,52 @@ There are a ton of display modes for an element. These are as follows: 
 
 ##### display: block
 
-TODO
+Setting an element to `display: block` generates a line break before and after
+the block. Additionally the dimension can be manipulated as well.
+
+Some elements like `div` and `p` are set to `display: block` by default.
+
+```html
+Some text <p>with a paragraph that is actually breaking the line</p> by default.
+```
 
 +++
 
 ##### display: inline
 
-TODO
+Changing an element to `display: inline` makes it flow within a line. Setting
+the dimension won't necessarily take any effect.
+
+Some elements like `span` and `a` are `inline` by default.
+
+```css
+p {
+  display: inline;
+}
+```
+
+```html
+Some text <p>with a paragraph that is actually breaking the line</p> by default.
+```
+
++++
+
+##### display: inline-block
+
+`inline-block` is a combination of a `block` and `inline` element, causing it to
+flow within a line but also allows for dimension changes.
+
+```css
+span {
+  display: inline-block;
+  padding: 5px;
+  background: yellow;
+}
+```
+
+```html
+Some text <span>with a span element</span>.
+```
 
 +++
 
@@ -467,12 +506,6 @@ TODO
 +++
 
 ##### display: grid
-
-TODO
-
-+++
-
-##### display: inline-block
 
 TODO
 
