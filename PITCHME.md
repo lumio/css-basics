@@ -558,11 +558,53 @@ on the computed value of its parent element.
 
 #### justify-content
 
+Applied to the flex container, sets how child elements should be rendered
+(per default) horizontally.
+
+Possible options:
+
+- flex-start: all elements are aligned to the left.
+- flex-end: all elements are aligned to the right.
+- center: aligned to the center.
+- space-between: aligned from the left to the right with gaps inbetween.
+- space-around: items are evenly distributed with less gap on the edges.
+- space-evenly: items are evenly distributed with evenly spaced gaps to the
+  edges.
+
 +++
 
 ### flex
 
 #### align-items
+
+Sets how the child elements are aligned on a vertical level.
+
+Possible options:
+
+- flex-start: all elements are aligned to the top.
+- flex-end: all elements are aligned to the bottom.
+- center: aligned to the center.
+- stretch: elements height is being stretched to the containers height.
+- baseline: elements are aligned to the same baseline.
+
++++
+
+### flex
+
+#### align-content
+
+This aligns a flex container's lines within when there is extra space in the
+cross-axis. Similar to how `justify-content` aligns individual items within the
+main-axis.
+
+Possible options:
+
+- flex-start: all lines aligned to the top.
+- flex-end: all lines aligned to the bottom.
+- center: all lines centered together.
+- space-between: lines evenly distributed without a gap to the edges.
+- space-around: lines evenly distributed with equal space around each line.
+- stretch: all lines are stretched so they fill the containers height.
 
 +++
 
