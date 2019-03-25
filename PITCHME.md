@@ -513,31 +513,40 @@ Some text <span>with a span element</span>.
 
 ##### display: flex
 
-TODO
+The `display: flex` makes the outer box a block element and the content
+flexible.
 
-+++
-
-##### display: grid
-
-TODO
-
-+++
+Flexbox allows you to align child elements in a controlled way, similar to
+table cells.
 
 ##### display: inline-flex
 
-TODO
+Similar to `display: block`, `inline-flex` allows the content to be flexible but
+won't cause line breaks for the outer bound box.
 
-+++
+##### display: grid
+
+`display: grid` is in a way similar to `display: flex` but other than just
+controlling child elements in only one dimension, you can control their flow
+both horizontally and vertically.
 
 ##### display: inline-grid
 
-TODO
-
-+++
+Same as before. The content is going to be a grid, the outside is inlined
+without line breaks.
 
 ##### display: inherit
 
-TODO
+`inherit` is a special CSS keyword. In this case it causes the element to take
+on the computed value of its parent element.
+
+---
+
+## flex
+
+---
+
+## grid
 
 ---
 
