@@ -519,10 +519,14 @@ flexible.
 Flexbox allows you to align child elements in a controlled way, similar to
 table cells.
 
++++
+
 ##### display: inline-flex
 
 Similar to `display: block`, `inline-flex` allows the content to be flexible but
 won't cause line breaks for the outer bound box.
+
++++
 
 ##### display: grid
 
@@ -530,10 +534,14 @@ won't cause line breaks for the outer bound box.
 controlling child elements in only one dimension, you can control their flow
 both horizontally and vertically.
 
++++
+
 ##### display: inline-grid
 
 Same as before. The content is going to be a grid, the outside is inlined
 without line breaks.
+
++++
 
 ##### display: inherit
 
