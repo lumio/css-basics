@@ -461,6 +461,10 @@ Some text <p>with a paragraph</p> breaking the line.
 
 +++
 
+![display block example](./media/block-example.png)
+
++++
+
 ##### display: inline
 
 Changing an element to `display: inline` makes it flow within a line. Setting
@@ -480,6 +484,10 @@ Some text <p>with an inline paragraph</p> and no line-break.
 
 +++
 
+![display inline example](./media/inline-example.png)
+
++++
+
 ##### display: inline-block
 
 `inline-block` is a combination of a `block` and `inline` element, causing it to
@@ -496,6 +504,10 @@ span {
 ```html
 Some text <span>with a span element</span>.
 ```
+
++++
+
+![display inline block example](./media/inline-block-example.png)
 
 +++
 
