@@ -456,7 +456,7 @@ the block. Additionally the dimension can be manipulated as well.
 Some elements like `div` and `p` are set to `display: block` by default.
 
 ```html
-Some text <p>with a paragraph that is actually breaking the line</p> by default.
+Some text <p>with a paragraph</p> breaking the line.
 ```
 
 +++
@@ -475,7 +475,7 @@ p {
 ```
 
 ```html
-Some text <p>with a paragraph that is actually breaking the line</p> by default.
+Some text <p>with an inline paragraph</p> and no line-break.
 ```
 
 +++
