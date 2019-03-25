@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em/1.2 sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  padding: 1em;
+}
+
+.flex-child__1 {
+  background: pink;
+
+  flex-base: 50%;
+  flex-grow: 3;
+}
+
+.flex-child__2 {
+  background: lightblue;
+}
+
+.flex-child__3 {
+  background: lightgreen;
+}
