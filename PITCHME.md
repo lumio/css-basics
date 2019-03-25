@@ -588,6 +588,12 @@ on the computed value of its parent element.
 
 #### Caveats
 
++++
+
+### flex
+
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 ---
 
 ## grid
