@@ -188,7 +188,7 @@ This would still match our element.
 ### TODO Pseudo classes
 
 * Caveats
-	* `:first-child` and `:last-child` will ignore the element tag type
+  * `:first-child` and `:last-child` will ignore the element tag type
 
 ```
   <div>
@@ -333,6 +333,25 @@ To get around this you *could* use the CSS function `calc` but that is a bit of
 a mess anyway. So instead we can use `box-sizing` and set it to `border-box`.
 As the value suggests, this will take *border* and *padding* into account,
 but still leaves *margin* untouched.
+
++++
+
+### Box model
+
+```css
+div {
+  margin: 2em;
+  padding: 2em;
+  width: 50%;
+  background: rgba(74, 172, 250, .5);
+}
+```
+
+```html
+<div>
+  <div>Hello world</div>
+</div>
+```
 
 ---
 
