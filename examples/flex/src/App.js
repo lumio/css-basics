@@ -15,6 +15,7 @@ const defaultState = {
   alignItems: '',
   flexWrap: '',
   additionalCells: 0,
+  cell2AlignSelf: '',
   cell1MinHeight: 100,
   cell1Order: '',
   cell2Order: '',
@@ -162,6 +163,7 @@ const App = (props) => {
       background: 'lightgreen',
       order: state.cell2Order,
       flexGrow: state.cell2Grow,
+      alignSelf: state.cell2AlignSelf,
     },
     cell3: {
       margin: '.5em',
@@ -243,6 +245,12 @@ const App = (props) => {
         name: 'cell3Grow',
         type: 'number',
         label: <span><code>flex-grow</code> for cell 3</span>,
+      },
+      {
+        name: 'cell2AlignSelf',
+        type: 'select',
+        options: [ '', 'flex-start', 'flex-end', 'center', 'stretch', 'baseline' ],
+        label: <span><code>self-align</code> for cell 2</span>,
       },
     ],
   };
