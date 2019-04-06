@@ -610,13 +610,36 @@ Possible options:
 
 ### flex
 
-#### flex-grow
+#### flex-wrap
+
+By setting the `flex-wrap` property on the parent, you can control how child
+elements behave when there is not enough space for all of them.
+
+- nowrap: This is the default and causes all children to render in one line.
+- wrap: Items will flow to the next line if not enough space is available.
+- wrap-reverse: Same as `wrap` yet in the reverse line order.
 
 +++
 
 ### flex
 
-#### flex-wrap
+#### flex-grow
+
+By setting `flex-grow`, you can determine how the remaining space is distributed
+among the items. If none of the children have a `flex-grow` set (or all of them are
+set to `0`) the remaining space is controlled by the parents `justify-content`
+attribute.
+
++++
+
+### flex
+
+#### align-self
+
+This allows to overwrite the default `align-items` set on the parent for a single
+flex item.
+
+Values are the same as for `align-items`.
 
 +++
 
@@ -624,11 +647,9 @@ Possible options:
 
 #### order
 
-+++
-
-### flex
-
-#### Caveats
+By default, items are laid out in the source order. This can be controlled with
+the `order` property. By default this is set to 0. If 2 items have the same order
+value, the order of the source is being used.
 
 +++
 
