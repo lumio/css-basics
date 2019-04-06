@@ -7,7 +7,7 @@
 }
 
 body {
-  font: 1.4rem sans-serif;
+  font: 1.6rem sans-serif;
 }
 
 form {
@@ -17,13 +17,37 @@ form {
   padding: 1em;
   margin: 1em;
 
+  max-height: 40vh;
+  overflow: auto;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
   border: 1px solid #ccc;
+  background: #fff;
 }
 
 form label {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
+}
+
+form ul {
+  margin: 0 1em;
+  padding: 0;
+}
+
+form li {
+  margin: 0;
+  margin-left: 1em;
+}
+
+form select {
+  display: block;
+  width: 100%;
 }
 
 pre, code {

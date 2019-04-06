@@ -3,3 +3,14 @@
   padding: 1em;
 }
 
+pre .class-name {
+  color: #0a57a0;
+}
+
+pre .property-name {
+  color: #b28317;
+}
+
+pre .property-value {
+  color: #c61313;
+}
