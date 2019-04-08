@@ -153,6 +153,7 @@ const App = (props) => {
       margin: '.5em',
       padding: '.5em',
       background: 'pink',
+      font: '2em serif',
       minHeight: state.cell1MinHeight && '' + state.cell1MinHeight + 'px',
       order: state.cell1Order,
       flexGrow: state.cell1Grow,
